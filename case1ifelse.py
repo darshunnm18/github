@@ -1,5 +1,5 @@
 n=int(input("enter num:"))
-if (n%2):
+if n:
     print("if block exec")
 else:
     print("else block exec")
