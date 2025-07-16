@@ -7,8 +7,9 @@ while(i<=len(str)-1):
     ascii=ord(data)
     if(ascii>=65 and ascii<=90):
         newascii=ascii+32
-convchar=chr(newascii)
-newstr=newstr+convchar
+    convchar=chr(newascii)
+    newstr=newstr+convchar
 else:
-newstr=newstr+datai=i+1
+    newstr=newstr+data
+    i=i+1
 print(newstr)
